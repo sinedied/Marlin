@@ -1,3 +1,15 @@
+### Modifications:
+- Use BTT 1.2 board
+- Enabled BLTOUCH sensor with USE_PROBE_FOR_Z_HOMING
+- Use AUTO_BED_LEVELING_BILINEAR
+- Set NOZZLE_TO_PROBE_OFFSET
+- Set GRID_MAX_POINTS_X to 4 (4x4 probing grid)
+- Tune probe settings/speed
+- Update pre-heat presets
+- Tune menus
+
+---
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
