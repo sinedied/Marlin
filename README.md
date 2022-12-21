@@ -1,3 +1,25 @@
+### Firmware Modifications:
+- Use BTT 1.2 board
+- Enabled BLTOUCH sensor with USE_PROBE_FOR_Z_HOMING
+- Use AUTO_BED_LEVELING_BILINEAR
+- Set NOZZLE_TO_PROBE_OFFSET
+- Set DEFAULT_AXIS_STEPS_PER_UNIT E-Steps for new extruder
+- Set GRID_MAX_POINTS_X to 4 (4x4 probing grid)
+- Set DEFAULT_MAX_ACCELERATION to 10000 for X/Y
+- Set DEFAULT_MAX_FEEDRATE for E to 50
+- Set default JUNCTION_DEVIATION_MM to 0.16
+- Fine tune X_MAX_POS for better probe precision with BLTouch
+- Enabled SENSORLESS_HOMING (need rewiring, [see here](https://raw.githubusercontent.com/morningreis/Marlin-SKR-E3-Mini-1.2/bugfix-2.0.x/SKR_E3_Mini_1.2_wiring.png))
+- Enabled INPUT_SHAPING and SHAPING_MENU (set with M593)
+- Enabled LIN_ADVANCE (set with M900)
+- Enabled HOST_ACTION_COMMANDS for Octoprint support
+- Enabled M486 to allow CANCEL_OBJECTS
+- Tune probe settings/speed
+- Update pre-heat presets
+- Tune menus
+
+---
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
